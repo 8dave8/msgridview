@@ -52,22 +52,33 @@ html{
 	grid-area: grid3_2;
 	background-image: url('photo-1466495227171-d05d7e3ac2b3.webp');
 	background-size: 100% 100%;
-	box-shadow: 10px 10px black 
+	box-shadow: 0px 10px 20px black;
 }
 #grid3_3{
 	grid-area: grid3_3;
 	display: grid;
-	grid-template: "grid3_3_1 grid3_3_2 grid3_3_3" auto 
+	grid-gap: 30px;
+	height: 200px;
+	grid-template: "grid3_3_1 grid3_3_2 grid3_3_3" auto
 	/1fr 1fr 1fr;
 }
 #grid3_3_1{
 	grid-area: grid3_3_1;
+	background-image: url("photo-1511344260318-387b23a30503.webp");
+	background-size: 100% 100%;
+	box-shadow: 0px 10px 20px black;
 }
 #grid3_3_2{
 	grid-area: grid3_3_2;
+	background-image: url("photo-1459539235056-5045ca20e525.webp");
+	background-size: 100% 100%;
+	box-shadow: 0px 10px 20px black;
 }
 #grid3_3_3{
 	grid-area: grid3_3_3;
+	background-image: url("photo-1504703500545-4c4ee081b155.webp");
+	background-size: 100% 100%;
+	box-shadow: 0px 10px 20px black;
 }
 
 #grid3_4{
